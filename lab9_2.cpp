@@ -2,6 +2,23 @@
 using namespace std;
 
 //Write the function printO() here
+//ขอให้เติมมาเฉพาะ function printO() โดยที่ไม่ต้องเติม function main() มาในช่องนี้
+void printO(int a,int b){
+    
+    if(a>0&&b>0){    
+        for(int j=0;j<a;j++){
+        
+
+            for(int k=0;k<b;k++){
+            
+                cout<<"O";
+                  
+            }
+        
+        cout<<endl;    
+        }
+    }else cout<<"Invalid input";    
+}
 
 int main(){
 	
